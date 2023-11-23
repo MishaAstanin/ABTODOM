@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АВТОDOM</title>
+    <link rel="icon" href="image/favicon.png">                                 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="image/favicon.png" width="25" alt="Логотип">АВТОDOM</div>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle">
+                <label for="checkbox_toggle" class="burger"><span class="burger-line"></span></label>
+                <div class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="aboutUs.html">О нас</a></li>
+                    <li><a href="profile.html">Вход</a></li>
+                </div>
+            </ul>
+        </nav>                                                       
+    </header>
+
+    <main style="padding: 0;">
+        <div class="login-to-profile">
+            <div class="small-square1 sq11"></div>
+            <div class="small-square2 sq21"></div>
+            <div class="small-square3 sq31"></div>
+            <div class="small-square1 sq12"></div>
+            <div class="small-square2 sq22"></div>
+            <div class="small-square3 sq32"></div>
+            <form action="" method="post">
+                <h3>Регистрация</h3>
+                <input type="text" name="name" id="name" placeholder="Имя" required>
+                <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+                <input type="tel" name="tel" id="tel" placeholder="Телефон" required>
+                <input type="email" name="email" id="email" placeholder="Почта" required>
+                <input type="password" name="password" id="password" minlength="5" maxlength="20" required placeholder="Пароль">
+                <div id="captcha"></div>
+                <p style="margin-left: 5.150px;">Введите буквы или решите выражение:</p>
+                <input id="captcha-input" placeholder="Ввод">
+                <button id="captcha-button">Проверить</button>
+                <button type="submit" id="enter-button" disabled style="width: 80%;">Зарегистрироваться</button>
+            </form>
+        </div>
+        <script defer src="JS/captcha.js"></script>
+        <script defer src="JS/scriptprofile.js"></script>
+
+    </main>
+
+    <footer style="border-radius: 10px;">                                                               
+        <div class="footer-container">
+            <div class="footer-item">
+                <h2>О нас
+                    <span></span>
+                </h2>
+                <p>Ваш идеальный автомобиль ждет вас в нашем автосалоне. 
+                    Мы предлагаем широкий выбор автомобилей, а также профессиональные 
+                    услуги по их обслуживанию и ремонту. Приходите к нам, и вы обязательно удивитесь качеству нашей работы</p>
+                <div class="media">
+                    <button class="footer-media">
+                        <img src="image/telegram1.png" alt="Telegram" width="30">
+                    </button>
+                    <button class="footer-media">
+                        <img src="image/youtube1.png" alt="YouTube" width="30">
+                    </button>
+                    <button class="footer-media">
+                        <img src="image/vk1.png" alt="VK" width="30">
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <h2>Ссылки
+                    <span></span>
+                </h2>
+                <ul>
+                    <li><a href="index.html">Главная страница</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="aboutUs.html">О компании</a></li>
+                    <li><a href="profile.html">Вход в аккаунт</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Информация
+                    <span></span>
+                </h2>
+                <ul>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Правовая информация</a></li>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Обработка персональных данных</a></li>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Условия использования сайта</a></li>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Пользовательское соглашение</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Наши контакты
+                    <span></span>
+                </h2>
+                <div class="footer-contact">
+                    <div><img src="image/map.png" width="30" alt="Карта"></div>
+                    <div>Москва, Михайловский проезд, д.3, стр.3</div>
+                </div>
+                <div class="footer-contact">
+                    <div><img src="image/telephone.png" width="30" alt="Телефон"></div>
+                    <div>+7 (495) 172-51-20</div>
+                </div>
+                <div class="footer-contact">
+                    <div><img src="image/email.png" width="30" alt="Почта"></div>
+                    <div>autodom@gmail.com</div>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <p>ИНН 7725408569 ОГРН 5177746311420</p>
+            </div>
+        </div>
+    </footer>
+    <script defer src="JS/media_button.js"></script>
+</body>
+</html>

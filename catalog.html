@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АВТОDOM</title>
+    <link rel="icon" href="image/favicon.png">                                 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="image/favicon.png" width="25" alt="Логотип">АВТОDOM</div>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle">
+                <label for="checkbox_toggle" class="burger"><span class="burger-line"></span></label>
+                <div class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="aboutUs.html">О нас</a></li>
+                    <li><a href="profile.html">Вход</a></li>
+                </div>
+            </ul>
+        </nav>                                                       
+    </header>
+
+    <div class="notices">
+        <img src="image/notice.png" alt="Уведомления" width="100%", height="100%">
+        <div class="notices-text">4</div>
+    </div>
+    <div class="notice-menu">
+        <a>Уведомление 1</a>
+        <a>Уведомление 2</a>
+        <a>Уведомление 3</a>
+        <a>Уведомление 4</a>
+    </div>
+    
+    <main>
+
+        <div class="shop-header">
+            <div class="head-container">
+                <span>ABT</span>
+                <img src="image/bus.png">
+            </div>
+            <div class="head-container">
+                <span>D</span>
+                <img src="image/bus.png">
+                <span>M</span>
+            </div>
+        </div>
+
+        <div class="shop">
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop1.jpg"></div>
+                <div class="shop-text"><p>Porsche 911</p></div>
+                <div class="shop-button"><button class="red-button scroll-button"><a href="#shop1">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop2.jpg"></div>
+                <div class="shop-text"><p>Porsche taycan</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop2">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop3.jpg"></div>
+                <div class="shop-text"><p>Porsche panamera</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop3">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop4.jpg"></div>
+                <div class="shop-text"><p>BMW M5</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop4">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop5.jpg"></div>
+                <div class="shop-text"><p>BMW Z4</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop5">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop6.jpg"></div>
+                <div class="shop-text"><p>BMW I8</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop6">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop7.jpg"></div>
+                <div class="shop-text"><p>Mercedes CLA</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop7">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop8.jpg"></div>
+                <div class="shop-text"><p>Mercedes AMG-GT</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop8">Подробнее</a></button></div>
+            </div>
+
+            <div class="shop-item">
+                <div class="shop-photo"><img src="image/shop9.jpg"></div>
+                <div class="shop-text"><p>Mercedes SL</p></div>
+                <div class="shop-button"><button class="red-button"><a href="#shop9">Подробнее</a></button></div>
+            </div>
+
+        </div>
+
+        <h2 id="shop1" class="shop-h">Porsche 911</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch" id="switch1">
+                    <input type="radio" name="switch" id="switch2">
+                    <input type="radio" name="switch" id="switch3">
+                    <input type="radio" name="switch" id="switch4">
+    
+                    <div class="slide s1"><img src="image/Porsche911_1.jpg"></div>
+                    <div class="slide"><img src="image/Porsche911_2.jpg" style="height: auto;"></div>
+                    <div class="slide"><img src="image/Porsche911_3.jpg"></div>
+                    <div class="slide"><img src="image/Porsche911_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch1" class="bar"></label>
+                    <label for="switch2" class="bar"></label>
+                    <label for="switch3" class="bar"></label>
+                    <label for="switch4" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>580 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>3.8 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>2.9 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop2" class="shop-h">Porsche taycan</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch2" id="switch12">
+                    <input type="radio" name="switch2" id="switch22">
+                    <input type="radio" name="switch2" id="switch32">
+                    <input type="radio" name="switch2" id="switch42">
+    
+                    <div class="slide s2"><img src="image/PorscheTaycan_1.jpg"></div>
+                    <div class="slide"><img src="image/PorscheTaycan_2.jpeg" style="height: auto;"></div>
+                    <div class="slide"><img src="image/PorscheTaycan_3.jpg"></div>
+                    <div class="slide"><img src="image/PorscheTaycan_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch12" class="bar"></label>
+                    <label for="switch22" class="bar"></label>
+                    <label for="switch32" class="bar"></label>
+                    <label for="switch42" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>408 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>4.1 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>3.5 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop3" class="shop-h">Porsche panamera</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch3" id="switch13">
+                    <input type="radio" name="switch3" id="switch23">
+                    <input type="radio" name="switch3" id="switch33">
+                    <input type="radio" name="switch3" id="switch43">
+    
+                    <div class="slide s3"><img src="image/PorschePanamera_1.jpg"></div>
+                    <div class="slide"><img src="image/PorschePanamera_2.jpg"></div>
+                    <div class="slide"><img src="image/PorschePanamera_3.jpg"></div>
+                    <div class="slide"><img src="image/PorschePanamera_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch13" class="bar"></label>
+                    <label for="switch23" class="bar"></label>
+                    <label for="switch33" class="bar"></label>
+                    <label for="switch43" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>330 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>3.5 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Задний</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>3.9 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop4" class="shop-h">BMW M5</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch4" id="switch14">
+                    <input type="radio" name="switch4" id="switch24">
+                    <input type="radio" name="switch4" id="switch34">
+                    <input type="radio" name="switch4" id="switch44">
+    
+                    <div class="slide s4"><img src="image/BmwM5_1.jpg"></div>
+                    <div class="slide"><img src="image/BmwM5_2.jpg" style="height: auto;"></div>
+                    <div class="slide"><img src="image/BmwM5_3.jpg"></div>
+                    <div class="slide"><img src="image/BmwM5_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch14" class="bar"></label>
+                    <label for="switch24" class="bar"></label>
+                    <label for="switch34" class="bar"></label>
+                    <label for="switch44" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>625 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>4.4 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>2.5 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop5" class="shop-h">BMW Z4</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch5" id="switch15">
+                    <input type="radio" name="switch5" id="switch25">
+                    <input type="radio" name="switch5" id="switch35">
+                    <input type="radio" name="switch5" id="switch45">
+    
+                    <div class="slide s5"><img src="image/BmwZ4_1.jpg"></div>
+                    <div class="slide"><img src="image/BmwZ4_2.jpeg"></div>
+                    <div class="slide"><img src="image/BmwZ4_3.jpg"></div>
+                    <div class="slide"><img src="image/BmwZ4_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch15" class="bar"></label>
+                    <label for="switch25" class="bar"></label>
+                    <label for="switch35" class="bar"></label>
+                    <label for="switch45" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>297 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>2.0 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Задний</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>4.0 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop6" class="shop-h">BMW I8</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch6" id="switch16">
+                    <input type="radio" name="switch6" id="switch26">
+                    <input type="radio" name="switch6" id="switch36">
+                    <input type="radio" name="switch6" id="switch46">
+    
+                    <div class="slide s6"><img src="image/BmwI8_1.jpeg"></div>
+                    <div class="slide"><img src="image/BmwI8_2.jpg" style="height: auto;"></div>
+                    <div class="slide"><img src="image/BmwI8_3.jpg"></div>
+                    <div class="slide"><img src="image/BmwI8_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch16" class="bar"></label>
+                    <label for="switch26" class="bar"></label>
+                    <label for="switch36" class="bar"></label>
+                    <label for="switch46" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>362 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>1.5 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>3.2 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop7" class="shop-h">Mercedes CLA</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch7" id="switch17">
+                    <input type="radio" name="switch7" id="switch27">
+                    <input type="radio" name="switch7" id="switch37">
+                    <input type="radio" name="switch7" id="switch47">
+    
+                    <div class="slide s7"><img src="image/MercedesCla_1.jpg"></div>
+                    <div class="slide"><img src="image/MercedesCla_2.jpg"></div>
+                    <div class="slide"><img src="image/MercedesCla_3.jpg"></div>
+                    <div class="slide"><img src="image/MercedesCla_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch17" class="bar"></label>
+                    <label for="switch27" class="bar"></label>
+                    <label for="switch37" class="bar"></label>
+                    <label for="switch47" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>211 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>2.0 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Робот</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>3.7 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop8" class="shop-h">Mercedes AMG-GT</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch8" id="switch18">
+                    <input type="radio" name="switch8" id="switch28">
+                    <input type="radio" name="switch8" id="switch38">
+                    <input type="radio" name="switch8" id="switch48">
+    
+                    <div class="slide s8"><img src="image/MercedesAmgGt_1.jpg"></div>
+                    <div class="slide"><img src="image/MercedesAmgGt_2.jpg"></div>
+                    <div class="slide"><img src="image/MercedesAmgGt_3.jpeg"></div>
+                    <div class="slide"><img src="image/MercedesAmgGt_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch18" class="bar"></label>
+                    <label for="switch28" class="bar"></label>
+                    <label for="switch38" class="bar"></label>
+                    <label for="switch48" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>367 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>3.0 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Робот</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>2.5 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <h2 id="shop9" class="shop-h">Mercedes SL</h2>
+        <div class="catalog-block">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="switch9" id="switch19">
+                    <input type="radio" name="switch9" id="switch29">
+                    <input type="radio" name="switch9" id="switch39">
+                    <input type="radio" name="switch9" id="switch49">
+    
+                    <div class="slide s9"><img src="image/MercedesSL_1.jpg"></div>
+                    <div class="slide"><img src="image/MercedesSL_2.jpg"></div>
+                    <div class="slide"><img src="image/MercedesSl_3.jpeg"></div>
+                    <div class="slide"><img src="image/MercedesSL_4.jpg"></div>
+                </div>
+                <div class="navigation">
+                    <label for="switch19" class="bar"></label>
+                    <label for="switch29" class="bar"></label>
+                    <label for="switch39" class="bar"></label>
+                    <label for="switch49" class="bar"></label>
+                </div>
+            </div>
+            <div class="car-info">
+                <div class="car-info-item">
+                    <div><img src="image/power.png" width="30"></div>
+                    <p>585 л.с.</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/engine.png" width="30"></div>
+                    <p>4.0 л</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/racing.png" width="30"></div>
+                    <p>Полный</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/transmission.png" width="30"></div>
+                    <p>Автомат</p>
+                </div>
+                <div class="car-info-item">
+                    <div><img src="image/speed.png" width="30"></div>
+                    <p>2.3 сек</p>
+                </div>
+                <div>
+                    <p>Цвета:</p>
+                    <div class="colors">
+                        <div class="black"></div>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="green"></div>
+                        <div class="blue"></div>
+                    </div>
+                </div>
+                <button class="red-button open-model-window-button">Оформить заказ</button>
+            </div>
+        </div>
+
+        <div class="model-window-conteiner" id="main-model-window">
+            <div class="model-window">
+                <img src="image/model-window.png" class="model-window-car">
+                <button class="close-model-window" id="close-model-window-button"><img src="image/close.png" width="25"></button>
+                <h2>Здравствуйте, мы перезвоним Вам и ответим
+                    на все вопросы.</h2>
+                <form id="model-window-form">
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                        <input type="tel" required placeholder="Ваш телефон" class="tellinput" id="model-window-tel">
+                        <button type="submit" class="call-button">
+                            <div style="display: flex; align-items: center; justify-content: center;"><img src="image/telephone.png" width="25" alt="Телефон"></div>
+                            <p style="margin: 0;">Жду звонка</p>
+                        </button>
+                    </div>
+                    <p>Сейчас не удобно? <a><i>Выберите удобное время звонка</i></a></p>
+                    <input type="checkbox" name="agree" id="agree" checked>
+                    <label for="agree">Я согласен с условиями обработки персональных данных</label>
+                </form>
+            </div>
+        </div>
+        <script defer src="JS/model_window.js"></script> 
+
+    </main>
+
+    <footer style="border-radius: 10px;">                                                               
+        <div class="footer-container">
+            <div class="footer-item">
+                <h2>О нас
+                    <span></span>
+                </h2>
+                <p>Ваш идеальный автомобиль ждет вас в нашем автосалоне. 
+                    Мы предлагаем широкий выбор автомобилей, а также профессиональные 
+                    услуги по их обслуживанию и ремонту. Приходите к нам, и вы обязательно удивитесь качеству нашей работы</p>
+                <div class="media">
+                    <button class="footer-media">
+                        <img src="image/telegram1.png" alt="Telegram" width="30">
+                    </button>
+                    <button class="footer-media">
+                        <img src="image/youtube1.png" alt="YouTube" width="30">
+                    </button>
+                    <button class="footer-media">
+                        <img src="image/vk1.png" alt="VK" width="30">
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <h2>Ссылки
+                    <span></span>
+                </h2>
+                <ul>
+                    <li><a href="index.html">Главная страница</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="aboutUs.html">О компании</a></li>
+                    <li><a href="profile.html">Вход в аккаунт</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Информация
+                    <span></span>
+                </h2>
+                <ul>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Правовая информация</a></li>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Обработка персональных данных</a></li>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Условия использования сайта</a></li>
+                    <li><a href="https://porsche-center-taganka.ru/policy.php">Пользовательское соглашение</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Наши контакты
+                    <span></span>
+                </h2>
+                <div class="footer-contact">
+                    <div><img src="image/map.png" width="30" alt="Карта"></div>
+                    <div>Москва, Михайловский проезд, д.3, стр.3</div>
+                </div>
+                <div class="footer-contact">
+                    <div><img src="image/telephone.png" width="30" alt="Телефон"></div>
+                    <div>+7 (495) 172-51-20</div>
+                </div>
+                <div class="footer-contact">
+                    <div><img src="image/email.png" width="30" alt="Почта"></div>
+                    <div>autodom@gmail.com</div>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <p>ИНН 7725408569 ОГРН 5177746311420</p>
+            </div>
+        </div>
+    </footer>
+    <script defer src="JS/media_button.js"></script>
+</body>
+</html>
