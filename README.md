@@ -3,5 +3,5 @@
 - HTML5
 - CSS3
 - JavaScript
-- 
+
 Результат работы: [ABTODOM](https://mishaastanin.github.io/ABTODOM/)
