@@ -20,7 +20,7 @@
 - **Профиль**: страница для создания профиля пользователя.
 
 Результат работы: [ABTODOM](https://mishaastanin.github.io/ABTODOM/)
-
+<div align="center">
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/138d6088-7150-4ee6-ba47-c3c2240b956d)
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/99ca274a-813c-4ea8-9a7e-23117f2f14ef)
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/237dd98e-5879-44fe-a219-780f34a0a3af)
@@ -28,9 +28,7 @@
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/1d6864aa-64b2-4d02-ac5d-a7e6b9b958d5)
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/9ef97ebb-6297-484f-8193-80d4c3d47f0d)
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/c2c58b47-d2ee-4318-a5c7-8efdad7ec1b7)
-
-
-
+</div>
 
 
 ## Вклад в проект
