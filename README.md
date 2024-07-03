@@ -21,7 +21,7 @@
 
 Результат работы: [ABTODOM](https://mishaastanin.github.io/ABTODOM/)
 <div align="center">
-![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/138d6088-7150-4ee6-ba47-c3c2240b956d)
+  <img src="https://github.com/MishaAstanin/ABTODOM/assets/118374875/138d6088-7150-4ee6-ba47-c3c2240b956d">
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/99ca274a-813c-4ea8-9a7e-23117f2f14ef)
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/237dd98e-5879-44fe-a219-780f34a0a3af)
 ![image](https://github.com/MishaAstanin/ABTODOM/assets/118374875/bb1d18fa-5fb2-469e-a51c-db28386ebff2)
